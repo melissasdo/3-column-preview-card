@@ -1,7 +1,21 @@
 /* media */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 848px) {
   .cards {
     padding: 15rem;
+  }
+
+  .luxury {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+  }
+
+  .sedans {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+  }
+  
+  .suvs {
+    border-radius: 0px !important;
   }
 }
 
@@ -15,18 +29,65 @@
 
 /* classes */
 
-.card {
+.btn {
+  background-color: white;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: none;
+  border-color: white;
   color: white;
+}
+
+.card {
+  border: none !important;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: small;
+  max-width: 17rem;
+}
+
+.card h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+}
+
+.card button {
+  margin-top: 3rem;
+}
+
+.card img {
+  max-width: 60px;
+}
+
+.footer {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: small;
 }
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
 }
 
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
 .sedans {
-  background-color: hsl(31, 77%, 52%);
+  background-color: hsl(31, 77%, 52%) !important;
+}
+
+.sedans button {
+  color: hsl(31, 77%, 52%);
 }
 
 .suvs {
   background-color: hsl(184, 100%, 22%);
+}
+
+.suvs button {
+  color: hsl(184, 100%, 22%);
 }
