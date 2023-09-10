@@ -9,19 +9,38 @@
     border-bottom-left-radius: 0px !important;
   }
 
-  .sedans {
+  .sed-again {
     border-top-right-radius: 0px !important;
     border-bottom-right-radius: 0px !important;
   }
-  
+
   .suvs {
     border-radius: 0px !important;
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 575px) {
   .cards {
     padding: 1rem;
+  }
+
+  .sed-again {
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    background-color: hsl(31, 77%, 52%);
+  }
+
+  .sed-again button {
+    color: hsl(31, 77%, 52%);
+  }
+
+  .suvs {
+    border-radius: 0px !important;
+  }
+
+  .luxury {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
   }
 }
 
@@ -43,14 +62,14 @@
 .card {
   border: none !important;
   color: white;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: small;
   max-width: 17rem;
 }
 
 .card h1 {
-  font-family: 'Big Shoulders Display', cursive;
+  font-family: "Big Shoulders Display", cursive;
   font-weight: 700;
 }
 
@@ -63,7 +82,7 @@
 }
 
 .footer {
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: small;
 }
@@ -76,11 +95,11 @@
   color: hsl(179, 100%, 13%);
 }
 
-.sedans {
-  background-color: hsl(31, 77%, 52%) !important;
+.sed-again {
+  background-color: hsl(31, 77%, 52%);
 }
 
-.sedans button {
+.sed-again button {
   color: hsl(31, 77%, 52%);
 }
 
